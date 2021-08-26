@@ -1,3 +1,10 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
 h1 {
     color: black;/* color de h1  */
         /* text-decoration: underline; */ /* linea abajo  */
@@ -13,3 +20,65 @@ marquee{
     text-decoration:underline;
   background-color: aqua;  
 }
+ 
+.navigation-wrapper {
+  height: 70px;
+  background-color:#E17825  ;
+  color: #01c52b;
+  /* Flexbox container */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px ; 
+    padding-top: 30px;  
+  padding-bottom: 30px;
+  padding-right: 20px;
+  padding-left: 20px; 
+ 
+}
+
+.body{
+  background-color: rgb(207, 207, 37);
+  height: 90px;
+  
+}
+ 
+.body1{
+  background-color: rgb(207, 207, 37);
+  height:120px;
+  
+  
+}
+.body-img{
+background-image: url(https://image.freepik.com/vector-gratis/fondo-garabatos-panaderia_125540-632.jpg);
+height:500px;
+padding-right: 20px;
+padding-left: 20px; 
+}
+.columna-izquierda{
+  display:flex;
+  align-items: center;
+
+}
+ .icono-phone i {
+     color: black;
+font-size:  2em;
+   
+ }
+ .contacto-Hora{
+  color: #10eb10;
+  }
+
+  .columna-derecha{
+    display:flex;
+    align-items: center;
+   
+  }
+  .map i{
+    color:black;
+    font-size: 2em;
+    }
+  .direccion{
+   color: aqua;
+  }
+ 
